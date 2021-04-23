@@ -33,8 +33,6 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   margin-bottom: 20px;
-  max-height: 100%;
-  min-height: 1800px;
 }
 
 .container {
@@ -44,6 +42,7 @@ header {
   margin: 0 auto;
   margin-top: 20px;
   background-color: white;
+  position: relative;
 }
 
 .header__text {
@@ -188,8 +187,8 @@ color: black;
 
 .brand {
   text-align: center;
+  margin-bottom: 36px;
   color: silver;
-  max-height: 1800px;
 }
 
 :active, :hover, :focus {
